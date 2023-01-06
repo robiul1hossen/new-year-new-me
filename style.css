@@ -101,7 +101,7 @@
 .positive-mindset {
   width: 1070px;
   height: 300px;
-  background-image: linear-gradient(to right, rgba(120, 100, 150, 0.9) 20%, rgba(0, 0, 0, 0.2) 100%),
+  background-image: linear-gradient(to right, rgba(80, 80, 180, 0.7) 20%, rgba(0, 0, 0, 0.2) 100%),
     url("./images/watch.png");
   margin: 50px auto;
 }
@@ -113,4 +113,58 @@
 .positive-mindset div h1 {
   margin-bottom: 24px;
   font-size: 40px;
+}
+
+/* footer Style */
+footer {
+  background-color: #151414;
+  padding: 100px 0;
+  color: white;
+}
+.footer {
+  display: flex;
+  max-width: 1070px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 500px;
+}
+.footer-left h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-left p {
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.social-icon {
+  display: flex;
+}
+.social-icon li {
+  margin-right: 20px;
+}
+.social-icon li img {
+  width: 40px;
+}
+.footer-right h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer-right input {
+  padding: 0 10px;
+  height: 64px;
+  width: 300px;
+  border-radius: 8px;
+}
+.footer-right button {
+  display: block;
+  background: #005fac;
+  border-radius: 8px;
+  height: 64px;
+  width: 170px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
 }
