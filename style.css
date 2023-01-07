@@ -72,6 +72,12 @@
 .failure-context ul li {
   margin-bottom: 10px;
 }
+.failure-context ul li span {
+  color: #16d887;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
 /* Plan section  */
 section.plan-section {
   padding: 0 0 70px 0;
