@@ -27,27 +27,27 @@
   color: white;
 }
 
-.main-header div {
+/* .main-header div {
   text-align: right;
   margin-left: 400px;
-}
+} */
 
 .second {
-  width: 845px;
+  width: 42%;
+  margin-left: 750px;
 }
 .main-header div h1 {
   font-size: 65px;
   font-weight: 700;
   text-align: right;
-  padding: 216px 230px 0 0;
+  padding: 216px 0 0 0;
 }
 .main-header div p {
   text-align: right;
-  padding: 0 230px 0 0;
   margin: 24px 0 32px 0;
 }
 .btn-div {
-  width: 215px;
+  text-align: right;
 }
 
 /* Failure Section */
